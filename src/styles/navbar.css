@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background: #232b3b;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar a {
+  color: #f3f3f3;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+.navbar a:hover {
+  color: #50fa7b;
+}
